@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>employee</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
@@ -42,10 +42,16 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.github.dhevarajan-a</groupId>
-			<artifactId>generic-crud-api</artifactId>
-			<version>master-SNAPSHOT</version>
+			<groupId>com.generic</groupId>
+			<artifactId>crud</artifactId>
+			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>mysql</groupId>-->
+<!--			<artifactId>mysql-connector-java</artifactId>-->
+<!--			<scope>runtime</scope>-->
+<!--		</dependency>-->
+
 	</dependencies>
 
 	<repositories>
